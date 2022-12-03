@@ -1,9 +1,7 @@
 package day3
 
-import util.Control.using
 import util.GenericSolution
 
-import scala.io.Source
 
 class Solution extends GenericSolution {
 
