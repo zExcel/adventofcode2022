@@ -10,6 +10,7 @@ object Main {
     runDayThree()
     runDayFour()
     runDayFive()
+    runDaySix()
   }
 
   private def runDay(solver: GenericSolution, dayNumber: Int): Unit = {
@@ -45,5 +46,10 @@ object Main {
   def runDayFive(): Unit = {
     val solver = new day5.Solution()
     runDay(solver, 5)
+  }
+
+  def runDaySix(): Unit = {
+    val solver = new day6.Solution()
+    runDay(solver, 6)
   }
 }
