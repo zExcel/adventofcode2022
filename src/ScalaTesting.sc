@@ -1,5 +1,5 @@
 import util.ExtendedEuclideanAlgo
 
 
-val test = new ExtendedEuclideanAlgo()
-test.getMultiplicativeInverse(29, 3)
+val testing = List(1, 2,3,4,5,6)
+testing.filterNot(_%2 == 0)
