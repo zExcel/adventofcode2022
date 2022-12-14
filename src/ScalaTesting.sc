@@ -1,6 +1,5 @@
-import scala.collection.mutable
+import util.ExtendedEuclideanAlgo
 
-val stringA = ".."
-val stringB = ".a"
 
-println(stringB == stringA)
+val test = new ExtendedEuclideanAlgo()
+test.getMultiplicativeInverse(29, 3)

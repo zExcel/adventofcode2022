@@ -1,11 +1,13 @@
 package util
 
+import net.liftweb.json.DefaultFormats
 import util.Control.using
 
 import scala.io.Source
 
 trait GenericSolution {
 
+  implicit val formats: DefaultFormats.type = DefaultFormats
   def solvePartOne(input: Array[String]): Any
 
   def solvePartTwo(input: Array[String]): Any

@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "AdventOfCode"
   )
+
+libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
